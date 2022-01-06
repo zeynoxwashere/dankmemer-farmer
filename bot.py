@@ -49,13 +49,13 @@ async def _fish_dank(ctx): # b'\xfc'
                 await asyncio.sleep(random.randint(1,5))
                 await ctx.send('pls dep max')
 
-            print(f'{Fore.BLUE}[AUTO-FARM] {Fore.GREEN}Farm number: {count} sent'+Fore.RESET)
+            print(f'[AUTO-FARM] Farm number: {count} sent')
 
             await asyncio.sleep(random.randint(45,60))
 
         except Exception as e:
 
-            print(f"{Fore.RED}[ERROR]: {Fore.YELLOW}{e}"+Fore.RESET)
+            print(f"[ERROR]: {e}")
 
            
 
