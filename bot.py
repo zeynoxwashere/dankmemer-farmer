@@ -48,6 +48,7 @@ async def _fish_dank(ctx): # b'\xfc'
             if(random.randint(1,5) == 2): #added this so it sometimes also deposits all the coins
                 await asyncio.sleep(random.randint(1,5))
                 await ctx.send('pls dep max')
+		print("[INFO]: Deposited all the money.")
 
             print(f'[AUTO-FARM] Farm number: {count} sent')
 
